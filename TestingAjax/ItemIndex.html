@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Testing Ajax WIth Item</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+<form id="frmCustomer">
+    <div class="container"></div>
+    <h1>Tesing Ajax</h1>
+    <div class="form-group">
+        <label>Item Code</label>
+        <input class="form-control" type="text" name="id" id="txtCode">
+    </div>
+    <br>
+    <div class="form-group">
+        <label>Description</label>
+        <input class="form-control" type="text" name="name" id="txtDesc">
+    </div>
+    <br>
+    <div class="form-group">
+        <label>Unit Price</label>
+        <input class="form-control" type="text" name="address" id="txtUnitPrice">
+    </div>
+    <br>
+    <div class="form-group">
+        <label>Quantity On Hand</label>
+        <input class="form-control" type="text" name="address" id="txtQtyOnHand">
+    </div>
+    <br>
+    <div class="form-group">
+        <button id="btnAdd" class="btn btn-primary" type="button">Add</button>
+    </div>
+    <table id="tbl-items" class="table table-hover table-bordered">
+        <thead>
+        <tr>
+            <th>Item Code</th>
+            <th>Description</th>
+            <th>Unit Price</th>
+            <th>Quantity On Hand</th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <br>
+    <button id="btnSave" class="btn btn-primary" type="button">Save</button>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="ajaxItem.js"></script>
+</form>
+</div>
+</body>
+</html>
